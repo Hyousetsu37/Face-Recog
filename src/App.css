@@ -1,0 +1,27 @@
+.button-custom {
+  width: auto;
+  font-weight: 600;
+  background-color: rgb(139 92 246);
+  border-width: 1px;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 25px -5px turquoise 0 8px 10px -6px turquoise;
+  transition: ease-in-out;
+}
+
+button:hover {
+  scale: 1.1;
+  color: white;
+}
+
+button:active {
+  transform: translateY(0.25rem);
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
